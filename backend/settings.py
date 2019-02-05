@@ -25,7 +25,7 @@ SECRET_KEY = '_7pmv+9v!7v@bog8=j(3hjowj7$6r14!&34zj*o-qs39!ur(%6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['green-prep.herokuapp.com']
 
 
 # Application definition

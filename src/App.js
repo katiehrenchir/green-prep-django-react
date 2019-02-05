@@ -3,19 +3,6 @@ import Modal from "./components/Modal";
 import React, { Component } from "react";
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
-const foodItems = [
-  {
-    id: 1, 
-    name: "water bottle",
-    calories: 0,
-    protein: 0,
-    carbs: 0,
-    fat: 0
-  }
-
-];
-
-
 class CustomToggle extends Component {
   constructor(props, context) {
     super(props, context);
