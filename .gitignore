@@ -2,7 +2,7 @@
 .vscode
 
 # Node modules
-#fronend/node_modules
+frontend/node_modules
 
 # Coverage (for testing)
 coverage/
