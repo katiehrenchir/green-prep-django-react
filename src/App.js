@@ -2,6 +2,23 @@ import axios from "axios";
 import Modal from "./components/Modal";
 import React, { Component } from "react";
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'Green Prep'
+
+class MyComponent extends React.PureComponent {
+  render () {
+    return (
+        <>
+            <Helmet>
+                <title>{ TITLE }</title>
+            </Helmet>
+            ...
+        </>
+    )
+  }
+}
+
 
 class CustomToggle extends Component {
   constructor(props, context) {
