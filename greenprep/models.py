@@ -7,6 +7,7 @@ class Food(models.Model):
     #serving_sizes(S)  = 
 
     # This amount per 100g?
+    #round all macros up to the nearest gram - not doubles
     calories = models.IntegerField()
     protein = models.DecimalField(max_digits=6, decimal_places=2)
     carbs = models.DecimalField(max_digits=6, decimal_places=2)
